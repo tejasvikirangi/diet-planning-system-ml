@@ -1,0 +1,53 @@
+body {
+    background: url("/static/bg.png") no-repeat center center fixed;
+    background-size: contain;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- FORM SECTION ---------- */
+
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;          /* 🔥 SAME SIZE */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #1b5e20;
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+}
+
+/* ---------- FOOD LIST ---------- */
+.section-title {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
